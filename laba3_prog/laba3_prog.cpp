@@ -58,6 +58,9 @@ int main()
             }   
         }
     }
+     if (findMax == 0)
+        cout << "There's no numbers " << findMax << endl;
+    else
     cout <<"Max number: "<< findMax << endl;
     system("pause");
     return 0;
