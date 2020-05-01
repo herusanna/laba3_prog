@@ -12,12 +12,14 @@ int main()
     size = strlen(str);
     cout <<"Size of array:  "<< size << endl;
     for (int i = 0; i < size; i++) {
+    if(isalpha(str[i])){
         if (islower(str[i])) {
             str[i] = toupper(str[i]);
         }
         else
             str[i] = tolower(str[i]);
         cout << str[i];
+    }
     }
     cout << endl;
 
